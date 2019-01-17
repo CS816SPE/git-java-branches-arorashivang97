@@ -17,16 +17,18 @@ public class caladd{
 				res = a + b;
 				System.out.print("Result = " + res);
 				break;
-
-				case '2' : System.exit(0);
-				break;
-
-				case '3' : System.out.print("Enter Two Numbers : ");
+				
+				case '2' : System.out.print("Enter Two Numbers : ");
 				a = scan.nextFloat();
 				b = scan.nextFloat();
-				res = a - b;
+				res = a * b;
 				System.out.print("Result = " + res);
 				break;
+
+				case '3' : System.exit(0);
+				break;
+
+				
 
 				default : System.out.print("INVALID CHOICE !!!");
 				break;
